@@ -27,3 +27,20 @@ pub fn variables() {
     println!("{}", is_resolved)
 
 }
+
+pub struct Printer {
+    content: String
+}
+
+impl Printer {
+    pub fn new() -> Printer {
+        Printer {
+            content: String::new()
+        }
+    }
+    pub fn content(&mut self) -> &str {
+        println!("{}", "data");
+
+        return &self.content;
+    }
+}

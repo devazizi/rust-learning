@@ -4,5 +4,6 @@ fn main() {
     printer::run();
     printer::msg();
     printer::variables();
+    printer::Printer::new().content();
     println!("End");
 }
