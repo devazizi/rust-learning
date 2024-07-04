@@ -3,5 +3,6 @@ fn main() {
     println!("Hello, world!");
     printer::run();
     printer::msg();
-    println!("Hello Alireza this is first rust language test");
+    printer::variables();
+    println!("End");
 }

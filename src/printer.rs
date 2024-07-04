@@ -8,11 +8,22 @@ pub fn msg() {
     
     println!("msg: Hollo {:0}", name);
 
-    let mut second_name = "mohammad";
+    let mut second_name: &str = "mohammad";
 
     println!("{}", second_name);
 
     second_name = "hassan";
 
     println!("{}", second_name);
+}
+
+pub fn variables() {
+    let number: i8 = 16;
+
+    println!("{}", number);
+
+    let is_resolved: bool = false;
+
+    println!("{}", is_resolved)
+
 }
